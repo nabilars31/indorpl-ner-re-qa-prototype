@@ -1,0 +1,23 @@
+======================================================================
+BEST MODEL CONFIGURATION (RE)
+======================================================================
+Best Fold Source  : 1
+F1-Macro          : 0.4556
+Accuracy          : 0.6705
+Loss              : 0.4400
+Training Time     : 403.89 s
+Base Model        : /content/drive/MyDrive/implementation_250_indobert/rqs/models/indorpl-base/model
+Epochs            : 5
+Learning Rate     : 2e-05
+Batch Size        : 32
+Warmup Steps      : 204
+Weight Decay      : 0.01
+Hidden Dropout    : 0.1
+Sampling Method   : Proportional Negative Sampling
+Loss Functions    : Alpha Focal Loss (Gamma 2.0, Dampened Sqrt Class Weights)
+Layer Mod         : Fully Unfrozen (All 12 Layers) for Special Tokens
+LR Scheduler      : cosine
+Early Stopping    : Patience 2
+Seed              : 42
+------------------------------
+Label Map: {0: 'DIEVALUASI_DENGAN', 1: 'DILAKUKAN_MELALUI', 2: 'DISELESAIKAN_DENGAN', 3: 'MENGGUNAKAN', 4: 'MENGHASILKAN', 5: 'MENGHASILKAN_KESIMPULAN', 6: 'MENYELESAIKAN_MASALAH', 7: 'TIDAK_ADA_RELASI'}

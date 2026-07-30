@@ -1,0 +1,20 @@
+======================================================================
+BEST MODEL CONFIGURATION (NER)
+======================================================================
+Best Fold Source  : 2
+F1-Macro          : 0.6538
+Accuracy          : 0.9417
+Loss              : 0.1325
+Training Time     : 437.43 s
+Base Model        : /content/drive/MyDrive/implementation_250_indobert/rqs/models/indorpl-base/model
+Epochs            : 10
+Learning Rate     : 2e-05
+Batch Size        : 16
+Warmup Steps      : 94
+Weight Decay      : 0.05
+Hidden Dropout    : 0.1
+LR Scheduler      : cosine
+Early Stopping    : Patience 3
+Seed              : 42
+------------------------------
+Label Map: {0: 'O', 1: 'B-JENIS_MASALAH', 2: 'I-JENIS_MASALAH', 3: 'B-STUDI_KASUS', 4: 'I-STUDI_KASUS', 5: 'B-METODOLOGI_PENGEMBANGAN_SISTEM', 6: 'I-METODOLOGI_PENGEMBANGAN_SISTEM', 7: 'B-ARSITEKTUR_DAN_TEKNOLOGI', 8: 'I-ARSITEKTUR_DAN_TEKNOLOGI', 9: 'B-ALGORITMA_DAN_KOMPUTASI', 10: 'I-ALGORITMA_DAN_KOMPUTASI', 11: 'B-PENDEKATAN_DAN_TEKNIK_DATA', 12: 'I-PENDEKATAN_DAN_TEKNIK_DATA', 13: 'B-METODE_PENGUJIAN', 14: 'I-METODE_PENGUJIAN', 15: 'B-PRODUK_SISTEM', 16: 'I-PRODUK_SISTEM', 17: 'B-METRIK_EVALUASI', 18: 'I-METRIK_EVALUASI', 19: 'B-NILAI_METRIK_DAN_HASIL', 20: 'I-NILAI_METRIK_DAN_HASIL', 21: 'B-KLAIM_MANFAAT_DAN_SARAN', 22: 'I-KLAIM_MANFAAT_DAN_SARAN'}

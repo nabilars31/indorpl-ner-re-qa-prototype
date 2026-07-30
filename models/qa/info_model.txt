@@ -1,0 +1,18 @@
+======================================================================
+BEST MODEL CONFIGURATION (QA EXTRACTIVE SQUAD 2.0)
+======================================================================
+Best Fold Source  : 2
+F1 Score (Primary): 45.21%
+Exact Match       : 41.38%
+Eval Loss         : 2.2341
+Training Time     : 975.79 s
+Base Model        : /content/drive/MyDrive/implementation_250_indobert/rqs/models/indorpl-base/model
+Epochs            : 3
+Learning Rate     : 5e-05
+Batch Size        : 32
+Warmup Steps      : 279
+Weight Decay      : 0.05
+LR Scheduler      : cosine
+Early Stopping    : Patience 3
+Seed              : 42
+------------------------------
